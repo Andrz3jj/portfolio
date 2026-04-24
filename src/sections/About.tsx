@@ -7,9 +7,9 @@ export default function About() {
         <>
             <div className="relative flex items-center justify-center h-screen overflow-hidden">
                 <div className="flex flex-col text-center">
-                    <span className="text-3xl font-extrabold pb-2">Cześć!, Jestem Andrzej</span>
-                    <span className="text-xl font-semibold pb-0.5">Uczeń, programista.</span>
-                    <span className="text-md">
+                    <span className="text-xl md:text-3xl font-extrabold pb-1 md:pb-2">Cześć!, Jestem Andrzej</span>
+                    <span className="sm:text-md md:text-xl font-semibold pb-0.5 md:pb-0.5">Uczeń, programista.</span>
+                    <span className="text-sm md:text-md ml-0.5 mr-0.5 md:ml-0 md:mr-0">
                         Mam 17 lat i wolne chwile spędzam na kodowaniu.<br />
                         Eksperymentuję z frontendem, uczę się nowych technologii<br />
                         i zmieniam pomysły w działające projekty.<br />

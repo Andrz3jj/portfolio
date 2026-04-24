@@ -15,9 +15,9 @@ export default function About() {
                         i zmieniam pomysły w działające projekty.<br />
                     </span>
                     <div className="flex items-center justify-center space-x-2 pt-3">
-                        <FaLinkedin size={30} />
-                        <FaGithubSquare size={30} />
-                        <IoIosMail size={30} />
+                        <a href="https://www.linkedin.com/in/andrzej-bajcarczyk-468941404/" target="_blank"><FaLinkedin size={30} /></a>
+                        <a href="https://github.com/Andrz3jj" target="_blank"><FaGithubSquare size={30} /></a>
+                        <a href="mailto:[andrzej1332@onet.pl]"><IoIosMail size={30} /></a>
                     </div>
                 </div>
             </div>

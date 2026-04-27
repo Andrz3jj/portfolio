@@ -10,9 +10,9 @@ export default function Projects() {
                         <TabsTrigger value="education" className="text-lg">Edukacja</TabsTrigger>
                         <TabsTrigger value="competitions" className="text-lg">Konkursy</TabsTrigger>
                     </TabsList>
-                    <TabsContent value="work" className="border-2 p-4 border-gray-200 rounded-lg">praca</TabsContent>
-                    <TabsContent value="education" className="border-2 p-4 border-gray-200 rounded-lg">Edukacja</TabsContent>
-                    <TabsContent value="competitions" className="border-2 p-4 border-gray-200 rounded-lg">Konkursy</TabsContent>
+                    <TabsContent value="work" className="border shadow-md shadow-gray-100 p-4 border-gray-200 rounded-lg">praca</TabsContent>
+                    <TabsContent value="education" className="border shadow-md shadow-gray-100 p-4 border-gray-200 rounded-lg">Edukacja</TabsContent>
+                    <TabsContent value="competitions" className="border shadow-md shadow-gray-100 p-4 border-gray-200 rounded-lg">Konkursy</TabsContent>
                 </Tabs>
             </div>
         </>

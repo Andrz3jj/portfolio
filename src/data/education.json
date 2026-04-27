@@ -1,0 +1,20 @@
+{
+    "education": [
+        {
+            "name": "Uniwersytet Medyczny w Warszawie",
+            "href": "https://wum.edu.pl",
+            "logo": "/wum.png",
+            "positions": [
+                {
+                    "title": "Pielęgniarstwo / Położnictwo",
+                    "start": "10.2019",
+                    "end": "06.2024",
+                    "description": [
+                        "Pisanie prac badawczych z zakresu prawa medycznego",
+                        "Udział w zajęciach klinicznych"
+                    ]
+                }
+            ]
+        }
+    ]
+}

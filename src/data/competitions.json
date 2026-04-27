@@ -1,0 +1,19 @@
+{
+    "competitions": [
+        {
+            "name": "Hackathon Medyczny 2023",
+            "href": "https://hackathon.pl",
+            "logo": "/hackathon.png",
+            "positions": [
+                {
+                    "title": "Uczestnik - Projekt 2D",
+                    "start": "11.2023",
+                    "end": "11.2023",
+                    "description": [
+                        "Stworzenie gry edukacyjnej z użyciem Node.js"
+                    ]
+                }
+            ]
+        }
+    ]
+}

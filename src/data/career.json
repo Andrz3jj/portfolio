@@ -1,0 +1,20 @@
+{
+    "career": [
+        {
+            "name": "Przykładowy Szpital",
+            "href": "https://szpital.pl",
+            "logo": "/szpital.png",
+            "positions": [
+                {
+                    "title": "Młodszy Asystent",
+                    "start": "01.2023",
+                    "end": "Obecnie",
+                    "description": [
+                        "Praca z pacjentami",
+                        "Obsługa systemów IT"
+                    ]
+                }
+            ]
+        }
+    ]
+}

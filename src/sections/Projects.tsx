@@ -1,16 +1,13 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import Timeline from "@/components/Timeline"; // Upewnij się, że ścieżka do Timeline jest poprawna
+import Timeline from "@/components/Timeline";
 
-// Import danych z plików JSON
 import careerData from "@/data/career.json";
 import educationData from "@/data/education.json";
-import competitionsData from "@/data/competitions.json"; // Dodaj nowy plik JSON dla konkursów
+import competitionsData from "@/data/competitions.json";
 
-// Import schematów walidacji
 import { careerSchema, educationSchema, competitionsSchema } from "@/lib/schemas";
 
 export default function Projects() {
-    // Parsowanie danych przez Zod w celu zachowania bezpieczeństwa typów
     const career = careerSchema.parse(careerData).career;
     const education = educationSchema.parse(educationData).education;
     const competitions = competitionsSchema.parse(competitionsData).competitions;

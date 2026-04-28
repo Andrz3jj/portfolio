@@ -1,6 +1,5 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
 import { RiMailFill } from "react-icons/ri";
 
 export default function About() {

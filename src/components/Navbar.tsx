@@ -3,10 +3,6 @@ import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { motion } from "framer-motion";
 import { FaSun } from "react-icons/fa";
-import Navbar from './components/Navbar';
-import About from './sections/About';
-import Experience from './sections/Experience';
-import Projects from './sections/Projects';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState<boolean>(false);

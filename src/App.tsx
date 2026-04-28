@@ -3,6 +3,7 @@ import About from './sections/About';
 import Experience from './sections/Experience';
 import Projects from './sections/Projects';
 import Footer from './sections/Footer';
+import Contact from './sections/Contact';
 import './App.css';
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
 
                 <div id="experience">
                     <Experience />
+                </div>
+
+                <div id="contact">
+                    <Contact />
                 </div>
 
                 <div id="footer">

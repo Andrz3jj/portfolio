@@ -3,6 +3,10 @@ import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { motion } from "framer-motion";
 import { FaSun } from "react-icons/fa";
+import Navbar from './components/Navbar';
+import About from './sections/About';
+import Experience from './sections/Experience';
+import Projects from './sections/Projects';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -39,9 +43,9 @@ export default function Navbar() {
         <>
             <div className="hidden sm:flex fixed top-0 z-50 w-full justify-between items-center bg-transparent backdrop-blur-lg sm:pl-20 sm:pr-20 md:pl-40 md:pr-40 lg:pl-80 lg:pr-80">
                 <div className="space-x-10 text-lg p-5 text-center text-gray-500">
-                    <span className="hover:text-gray-900 transition cursor-pointer">o mnie</span>
-                    <span className="hover:text-gray-900 transition cursor-pointer">projekty</span>
-                    <span className="hover:text-gray-900 transition cursor-pointer">kontakt</span>
+                    <a href="#about" className="hover:text-gray-900 transition cursor-pointer">o mnie</a>
+                    <a href="#projects" className="hover:text-gray-900 transition cursor-pointer">projekty</a>
+                    <a href="#contact" className="hover:text-gray-900 transition cursor-pointer">kontakt</a>
                 </div>
 
                 <div className="p-5 cursor-pointer" onClick={toggleTheme}>

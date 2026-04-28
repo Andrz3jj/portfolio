@@ -13,7 +13,8 @@ export default function Projects() {
     const competitions = competitionsSchema.parse(competitionsData).competitions;
 
     return (
-        <div className="relative flex items-center justify-center min-h-screen overflow-hidden">
+        <div className="flex justify-center pb-10">
+            {/* className="relative flex items-center justify-center min-h-screen overflow-hidden" */}
             <Tabs defaultValue="work" className="w-full md:w-2/4 ml-6 mr-6 md:ml-0 md:mr-0">
                 <TabsList className="flex w-full mx-auto mb-2 overflow-x-auto">
                     <TabsTrigger value="work" className="text-lg">Praca</TabsTrigger>

@@ -1,16 +1,16 @@
 {
     "competitions": [
         {
-            "name": "Hackathon Medyczny 2023",
-            "href": "https://hackathon.pl",
-            "logo": "/hackathon.png",
+            "name": "Hackathon Space Apps Challenge 2025",
+            "href": "https://www.carpatiabiznes.pl/zespol-goon-zwyciezca-hackathonu-nasa-2025-w-stalowej-woli/",
+            "logo": "/img/nasa.webp",
             "positions": [
                 {
-                    "title": "Uczestnik - Projekt 2D",
-                    "start": "11.2023",
-                    "end": "11.2023",
+                    "title": "Uczestnik, zajęcie 1 miejsca",
+                    "start": "04.10.2025",
+                    "end": "05.10.2025",
                     "description": [
-                        "Stworzenie gry edukacyjnej z użyciem Node.js"
+                        "Stworzenie aplikacji do wykrywania uszkodzeń"
                     ]
                 }
             ]

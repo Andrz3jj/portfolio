@@ -1,18 +1,14 @@
 {
     "education": [
         {
-            "name": "Uniwersytet Medyczny w Warszawie",
-            "href": "https://wum.edu.pl",
-            "logo": "/wum.png",
+            "name": "Zespół Szkół im. ks. S. Staszica w Tarnobrzegu",
+            "href": "https://zsgornik.pl/",
+            "logo": "/img/zsgornik.webp",
             "positions": [
                 {
-                    "title": "Pielęgniarstwo / Położnictwo",
-                    "start": "10.2019",
-                    "end": "06.2024",
-                    "description": [
-                        "Pisanie prac badawczych z zakresu prawa medycznego",
-                        "Udział w zajęciach klinicznych"
-                    ]
+                    "title": "Technik programista",
+                    "start": "2023",
+                    "end": "2028"
                 }
             ]
         }

@@ -1,17 +1,17 @@
 {
     "career": [
         {
-            "name": "Przykładowy Szpital",
-            "href": "https://szpital.pl",
-            "logo": "/szpital.png",
+            "name": "Wasys.pl",
+            "href": "https://wasys.pl/",
+            "logo": "/img/wasysLogo.webp",
             "positions": [
                 {
-                    "title": "Młodszy Asystent",
-                    "start": "01.2023",
-                    "end": "Obecnie",
+                    "title": "Praktykant",
+                    "start": "04.2026",
+                    "end": "05.2026",
                     "description": [
-                        "Praca z pacjentami",
-                        "Obsługa systemów IT"
+                        "Praca z wordpress",
+                        "Tworzenie stron internetowych"
                     ]
                 }
             ]

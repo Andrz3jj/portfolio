@@ -6,12 +6,6 @@ import { FaSun } from "react-icons/fa";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState<boolean>(false);
-    const [isDark, setIsDark] = useState<boolean>(false);
-
-    function toggleTheme() {
-        setIsDark(!isDark);
-        document.documentElement.classList.toggle('dark');
-    }
 
     function toggleDropDown() {
         setIsOpen(!isOpen);
@@ -44,9 +38,6 @@ export default function Navbar() {
                     <a href="#contact" className="hover:text-gray-900 transition cursor-pointer">kontakt</a>
                 </div>
 
-                <div className="p-5 cursor-pointer" onClick={toggleTheme}>
-                    {isDark ? <FaSun size={25} /> : <MdNightlight size={25} />}
-                </div>
             </div>
 
             <div className="flex flex-col sm:hidden fixed top-0 z-50 w-full bg-white/10 backdrop-blur-lg">
@@ -58,9 +49,6 @@ export default function Navbar() {
                         onClick={toggleDropDown}>
                         <CiMenuBurger size={30} />
                     </motion.div>
-
-
-                    <MdNightlight size={25} className="cursor-pointer" />
                 </div>
 
                 <motion.div
@@ -70,9 +58,9 @@ export default function Navbar() {
                     className="w-full flex flex-col items-center"
                 >
                     <div className="w-full flex flex-col items-center gap-4 pb-5 pt-2">
-                        <span className="text-gray-500 transition cursor-pointer">o mnie</span>
-                        <span className="text-gray-500 transition cursor-pointer">projekty</span>
-                        <span className="text-gray-500 transition cursor-pointer">kontakt</span>
+                        <a href="#about" className="text-gray-500 transition cursor-pointer">o mnie</a>
+                        <a href="#projects" className="text-gray-500 transition cursor-pointer">projekty</a>
+                        <a href="#contact" className="text-gray-500 transition cursor-pointer">kontakt</a>
                     </div>
                 </motion.div>
 

@@ -1,9 +1,6 @@
-import { MdNightlight } from "react-icons/md";
 import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { motion } from "framer-motion";
-import { FaSun } from "react-icons/fa";
-
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 

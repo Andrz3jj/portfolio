@@ -4,6 +4,7 @@ import Experience from './sections/Experience';
 import Projects from './sections/Projects';
 import Footer from './sections/Footer';
 import Contact from './sections/Contact';
+import Technologies from './sections/Technologies';
 import './App.css';
 
 function App() {
@@ -16,16 +17,20 @@ function App() {
                     <About />
                 </div>
 
-                <div id="projects">
-                    <Projects />
-                </div>
-
                 <div id="experience">
                     <Experience />
                 </div>
 
+                <div id="projects">
+                    <Projects />
+                </div>
+
                 <div id="contact">
                     <Contact />
+                </div>
+
+                <div id="technologies">
+                    <Technologies />
                 </div>
 
                 <div id="footer">

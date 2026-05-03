@@ -15,7 +15,7 @@ export default function Projects() {
     return (
         <div className="flex justify-center pb-50">
             <Tabs defaultValue="work" className="w-full md:w-2/4 ml-6 mr-6 md:ml-0 md:mr-0">
-                <TabsList className="flex w-full mx-auto mb-2 overflow-x-auto">
+                <TabsList className="flex w-full mx-auto mb-2 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] overflow-hidden touch-none">
                     <TabsTrigger value="work" className="text-lg">Praca</TabsTrigger>
                     <TabsTrigger value="education" className="text-lg">Edukacja</TabsTrigger>
                     <TabsTrigger value="competitions" className="text-lg">Konkursy</TabsTrigger>

@@ -5,7 +5,7 @@ import { RiMailFill } from "react-icons/ri";
 export default function Footer() {
     return (
         <>
-            <div className="flex justify-center text-gray-400 text-sm mb-2 border-t-2 pt-4 bg-gray-50">
+            <div className="flex justify-center text-gray-400 text-sm border-t-2 pt-4 pb-3 bg-gray-50">
                 <div className="w-2/3 flex">
                     <span>@ 2026</span>
                     <div className="flex ml-auto space-x-2">

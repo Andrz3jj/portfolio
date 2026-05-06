@@ -34,7 +34,7 @@ export default function Contact() {
 
     return (
         <div className="flex justify-center pb-60">
-            <form onSubmit={handleSubmit} className="w-2/3">
+            <form onSubmit={handleSubmit} className="w-2/3 md:w-1/2">
                 <span className="mr-auto text-2xl font-semibold">Kontakt:</span>
 
                 <div className="grid grid-cols-2 gap-4 w-full mt-4">
